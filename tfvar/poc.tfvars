@@ -4,7 +4,7 @@ permissions_list= [
 	description= "AdministratorAccess"
 	session_duration= null
 	managed_policies= ["arn:aws:iam::aws:policy/AdministratorAccess"]
-	aws_accounts=["400903410499","409590306960"]
+	aws_accounts=["400903410499","409590306961"]
 	sso_groups=["AdministratorGroup","PS-Administrator"]
 },
 {
@@ -12,7 +12,7 @@ permissions_list= [
 	description= "ViewOnlyAccess"
 	session_duration= null
 	managed_policies= ["arn:aws:iam::aws:policy/job-function/ViewOnlyAccess"]
-	aws_accounts=["400903410499","409590306960"]
+	aws_accounts=["400903410499","409590306961"]
 	sso_groups=["ReadOnlyGroup"]
 }
 ]
