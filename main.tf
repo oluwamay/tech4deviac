@@ -20,7 +20,7 @@ module "ec2" {
   source         = "./modules/ec2"
   ami            = "ami-12345678"
   instance_type  = "t2.micro"
-  instance_count = 3
+  instance_count = var.instance_count
   subnet_id      = module.vpc.subnet_id
   sg_id          = module.security_group.sg_id
   iam_role       = module.iam.role_name
